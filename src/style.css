@@ -70,5 +70,6 @@ body {
 
 .attribution {
   position: absolute;
-  bottom: 0;
+  text-align: center;
+  bottom: 1em;
 }
