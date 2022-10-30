@@ -3,6 +3,7 @@
   --clr-Lightgray: hsl(212, 45%, 89%);
   --clr-GrayishBlue: hsl(220, 15%, 55%);
   --clr-DarkBlue: hsl(218, 44%, 22%);
+  --clr-attribution: hsl(224, 100%, 59%);
 
   --fs-paragraph: 15px;
 
@@ -15,6 +16,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Outfit', sans-serif;
+}
+
+a {
+  color: var(--clr-attribution);
+  text-decoration: none;
 }
 
 body {
@@ -60,4 +66,9 @@ body {
   margin-bottom: 0.7em;
   color: var(--clr-DarkBlue);
   font-weight: var(--fw-bold);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
 }
