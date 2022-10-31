@@ -25,15 +25,17 @@ a {
 
 body {
   height: 100vh;
+  background-color: var(--clr-Lightgray);
 }
 
 .main-container {
-  background-color: var(--clr-Lightgray);
   width: 100%;
   height: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 1em;
 }
 
 .qr-container {
@@ -68,8 +70,7 @@ body {
   font-weight: var(--fw-bold);
 }
 
-.attribution {
-  position: absolute;
+footer{
+  position: relative;
   text-align: center;
-  bottom: 1em;
 }
