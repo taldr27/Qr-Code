@@ -5,7 +5,7 @@
   --clr-DarkBlue: hsl(218, 44%, 22%);
   --clr-attribution: hsl(224, 100%, 59%);
 
-  --fs-paragraph: 15px;
+  --fs-paragraph: 0.9375rem;
 
   --fw-light: 400;
   --fw-bold: 700;
@@ -56,7 +56,7 @@ body {
 }
 
 .text {
-  font-size: 15px;
+  font-size: 0.9375rem;
   padding: 0.85em;
   margin-top: 0.6em;
   color: var(--clr-GrayishBlue);
